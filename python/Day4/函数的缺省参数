@@ -1,0 +1,10 @@
+#缺省参数，默认
+def test1(x,y,z=10):  #如果z没有传递值，则默认10
+	print(x,y,z)
+	return x+y+z
+p=test1(2,17)	
+print(p)
+print('='*30)
+#
+def test2():
+	pass
